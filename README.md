@@ -1,1 +1,3 @@
-# solidity-playground
+# Solidity Playground
+
+`Learning soidity`
