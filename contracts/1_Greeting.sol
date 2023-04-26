@@ -13,6 +13,7 @@ contract Greeting {
         name = newName;
     }
 
+    // public = visibility, view = state mutability, funciton returns type
     function getGreeting() public view returns (string memory) {
         return string(abi.encodePacked(greetingPrefix, name));
     }
